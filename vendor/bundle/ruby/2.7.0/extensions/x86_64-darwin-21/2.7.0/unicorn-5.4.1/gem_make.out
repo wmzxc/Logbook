@@ -1,5 +1,9 @@
 current directory: /Users/macbookprohiroko/LogBook/vendor/bundle/ruby/2.7.0/gems/unicorn-5.4.1/ext/unicorn_http
+<<<<<<< HEAD
 /Users/macbookprohiroko/.rbenv/versions/2.7.5/bin/ruby -I /Users/macbookprohiroko/.rbenv/versions/2.7.5/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220424-28955-v5h33a.rb extconf.rb
+=======
+/Users/macbookprohiroko/.rbenv/versions/2.7.5/bin/ruby -I /Users/macbookprohiroko/.rbenv/versions/2.7.5/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220422-12106-1f3p57u.rb extconf.rb
+>>>>>>> d83ce43ccd0f75b08d138faa1a5d02e27698e20b
 checking for SIZEOF_OFF_T in ruby.h... yes
 checking for SIZEOF_SIZE_T in ruby.h... yes
 checking for SIZEOF_LONG in ruby.h... yes
@@ -19,4 +23,8 @@ linking shared-object unicorn_http.bundle
 
 current directory: /Users/macbookprohiroko/LogBook/vendor/bundle/ruby/2.7.0/gems/unicorn-5.4.1/ext/unicorn_http
 make DESTDIR\= install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 unicorn_http.bundle ./.gem.20220424-28955-17i9u8l
+=======
+/usr/bin/install -c -m 0755 unicorn_http.bundle ./.gem.20220422-12106-1pv1t3u
+>>>>>>> d83ce43ccd0f75b08d138faa1a5d02e27698e20b

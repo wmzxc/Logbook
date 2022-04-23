@@ -89,7 +89,11 @@ checked program was:
 "clang -o conftest -I/Users/macbookprohiroko/.rbenv/versions/2.7.5/include/ruby-2.7.0/x86_64-darwin21 -I/Users/macbookprohiroko/.rbenv/versions/2.7.5/include/ruby-2.7.0/ruby/backward -I/Users/macbookprohiroko/.rbenv/versions/2.7.5/include/ruby-2.7.0 -I. -I/Users/macbookprohiroko/.rbenv/versions/2.7.5/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -D_GNU_SOURCE  -g -O2 -fno-common -pipe conftest.c  -L. -L/Users/macbookprohiroko/.rbenv/versions/2.7.5/lib -L. -L/Users/macbookprohiroko/.rbenv/versions/2.7.5/lib  -fstack-protector-strong -L/usr/local/lib     -lruby.2.7   "
 Undefined symbols for architecture x86_64:
   "_mremap", referenced from:
+<<<<<<< HEAD
       _t in conftest-d4ca6a.o
+=======
+      _t in conftest-37f283.o
+>>>>>>> d83ce43ccd0f75b08d138faa1a5d02e27698e20b
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -295,7 +299,11 @@ checked program was:
 "clang -o conftest -I/Users/macbookprohiroko/.rbenv/versions/2.7.5/include/ruby-2.7.0/x86_64-darwin21 -I/Users/macbookprohiroko/.rbenv/versions/2.7.5/include/ruby-2.7.0/ruby/backward -I/Users/macbookprohiroko/.rbenv/versions/2.7.5/include/ruby-2.7.0 -I. -I/Users/macbookprohiroko/.rbenv/versions/2.7.5/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -D_GNU_SOURCE  -D_BSD_SOURCE  -g -O2 -fno-common -pipe conftest.c  -L. -L/Users/macbookprohiroko/.rbenv/versions/2.7.5/lib -L. -L/Users/macbookprohiroko/.rbenv/versions/2.7.5/lib  -fstack-protector-strong -L/usr/local/lib     -lruby.2.7   "
 Undefined symbols for architecture x86_64:
   "_rb_thread_blocking_region", referenced from:
+<<<<<<< HEAD
       _t in conftest-3b9a13.o
+=======
+      _t in conftest-d09184.o
+>>>>>>> d83ce43ccd0f75b08d138faa1a5d02e27698e20b
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:

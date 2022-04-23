@@ -80,6 +80,10 @@ gem 'webpacker', '~> 3.5'
 
 group :production do
   gem 'unicorn', '5.4.1'
+<<<<<<< HEAD
 end
 
 gem 'pg', '~> 1.3', '>= 1.3.5'
+=======
+end
+>>>>>>> d83ce43ccd0f75b08d138faa1a5d02e27698e20b
